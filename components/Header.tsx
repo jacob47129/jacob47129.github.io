@@ -11,6 +11,7 @@ export default function Header() {
               <Image src={"/assets/images/logo-white.png"} alt="Logo" width={60} height={60} className="inline-block mr-2" />
             </Link>
           </div>
+          <button className="px-4 py-2 text-sm font-medium text-white transition-all bg-blue-800 rounded-full cursor-pointer backdrop-blur-sm hover:bg-blue-900">Launch App</button>
         </div>
       </div>
     </header>
