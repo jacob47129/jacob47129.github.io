@@ -39,18 +39,21 @@ function Landing() {
             <div className="flex justify-center space-x-8">
               <a
                 href="https://x.com/RwgWorld"
+                target="_blank"
                 className="flex items-center justify-center w-10 h-10 text-white transition-all rounded-full cursor-pointer bg-white/10 backdrop-blur-sm hover:bg-white/20"
               >
                 <i className="text-lg ri-twitter-x-line"></i>
               </a>
               <a
-                href="https://discord.com/channels/1393165043717378160/1393165046506328117"
+                href="https://discord.gg/9U9Uwz458x"
+                target="_blank"
                 className="flex items-center justify-center w-10 h-10 text-white transition-all rounded-full cursor-pointer bg-white/10 backdrop-blur-sm hover:bg-white/20"
               >
                 <i className="text-lg ri-discord-line"></i>
               </a>
               <a
-                href="https://t.me/+960i07prFeIzYzll"
+                href="https://t.me/+4QIaVb6MD0cxZWJl"
+                target="_blank"
                 className="flex items-center justify-center w-10 h-10 text-white transition-all rounded-full cursor-pointer bg-white/10 backdrop-blur-sm hover:bg-white/20"
               >
                 <i className="text-lg ri-telegram-2-line"></i>
