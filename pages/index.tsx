@@ -52,7 +52,7 @@ function Landing() {
                 <i className="text-lg ri-discord-line"></i>
               </a>
               <a
-                href="https://t.me/+4QIaVb6MD0cxZWJl"
+                href="https://t.me/+b0PITBKd_GczOTRl"
                 target="_blank"
                 className="flex items-center justify-center w-10 h-10 text-white transition-all rounded-full cursor-pointer bg-white/10 backdrop-blur-sm hover:bg-white/20"
               >
