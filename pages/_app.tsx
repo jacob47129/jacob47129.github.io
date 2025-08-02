@@ -1,4 +1,4 @@
-import { Inter } from "next/font/google";
+import { Roboto } from "next/font/google";
 import type { NextPage } from "next";
 import type { AppProps } from "next/app";
 import type { ReactElement, ReactNode } from "react";
@@ -7,7 +7,7 @@ import "./globals.css";
 import 'remixicon/fonts/remixicon.css'
 
 // If loading a variable font, you don't need to specify the font weight
-const inter = Inter({ subsets: ["latin"] });
+const inter = Roboto({ subsets: ["latin"] });
 export type NextPageWithLayout<P = {}, IP = P> = NextPage<P, IP> & {
   getLayout?: (page: ReactElement) => ReactNode;
 };
