@@ -221,10 +221,7 @@ function Landing() {
               <p className="mb-6 text-lg leading-relaxed text-slate-300">
                 We are actively seeking interesting investment opportunities in RWA. Whether you’re an innovator, entrepreneur, or investor, connect with us to explore collaborations and funding
                 partnerships. Our community is supported by Danxia Capital, a community investment group with a proven track record in Web3 and Blockchain projects. Contact Us On{" "}
-                <a href="mailto:team@rwg.world" clas>
-                  team@rwg.world
-                </a>{" "}
-                For More Informatio
+                <a href="mailto:team@rwg.world">team@rwg.world</a> For More Informatio
               </p>
             </div>
           </div>
