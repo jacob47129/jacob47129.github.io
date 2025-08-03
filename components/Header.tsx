@@ -18,7 +18,7 @@ export default function Header() {
   }, []);
   return (
     <header
-      className="fixed top-0 left-0 z-50 w-full transition-colors duration-300 bg-transparent shadow"
+      className="z-50 w-full transition-colors duration-300 bg-transparent shadow"
       style={{
         backgroundColor: `rgba(19, 36, 82, ${bgOpacity})`,
         backdropFilter: bgOpacity > 0.1 ? "blur(8px)" : "none",

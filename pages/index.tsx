@@ -3,6 +3,8 @@ import Header from "@/components/Header";
 import { ReactElement } from "react";
 import { Metadata } from "next";
 
+import TEAM_CONFIG from "./team.json";
+
 export const metadata: Metadata = {
   title: "Coming Soon - logo",
   description: "Site under reconstruction",
@@ -203,6 +205,54 @@ function Landing() {
             <div className="relative">
               <img src="/assets/images/illustrations/research.svg" alt="Data analytics and AI visualization" />
             </div>
+          </div>
+        </div>
+      </section>
+
+      {/* section #3 */}
+      <section id="investor" className="relative z-10 px-6 py-20 lg:px-12 bg-gradient-to-r from-blue-600/20 to-purple-600/20 backdrop-blur-sm">
+        <div className="max-w-6xl mx-auto">
+          <div className="grid items-center gap-16 lg:grid-cols-2">
+            <div className="relative">
+              <img src="/assets/images/illustrations/Investing-bro.svg" />
+            </div>
+            <div>
+              <h2 className="mb-8 text-4xl font-bold lg:text-5xl">Looking for Investors?</h2>
+              <p className="mb-6 text-lg leading-relaxed text-slate-300">
+                We are actively seeking interesting investment opportunities in RWA. Whether you’re an innovator, entrepreneur, or investor, connect with us to explore collaborations and funding
+                partnerships. Our community is supported by Danxia Capital, a community investment group with a proven track record in Web3 and Blockchain projects. Contact Us On{" "}
+                <a href="mailto:team@rwg.world" clas>
+                  team@rwg.world
+                </a>{" "}
+                For More Informatio
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="team" className="relative z-10 px-6 py-20 lg:px-12">
+        <div className="max-w-6xl mx-auto">
+          <div className="mb-16 text-center">
+            <h2 className="mb-6 text-4xl font-bold lg:text-5xl">Meet Our Team</h2>
+            <p className="max-w-3xl mx-auto text-xl text-slate-300">Data scientists, AI experts, and blockchain analysts driving innovation in RWA intelligence</p>
+          </div>
+          <div className="grid gap-8 md:grid-cols-3">
+            {TEAM_CONFIG.map((item, index) => (
+              <div className="text-center group">
+                <div className="relative mb-6">
+                  <img
+                    src={`/assets/images/team/${index + 1}.jpg`}
+                    alt="CEO"
+                    className="object-cover w-32 h-32 mx-auto transition-all duration-300 border-4 rounded-full border-white/20 group-hover:border-blue-400/50"
+                  />
+                  <div className="absolute inset-0 w-32 h-32 mx-auto rounded-full bg-gradient-to-tr from-blue-500/20 to-transparent"></div>
+                </div>
+                <h3 className="mb-2 text-2xl font-bold">{item.name}</h3>
+                <p className="mb-3 text-blue-300">{item.title}</p>
+                <p className="text-sm text-slate-300">{item.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </section>
