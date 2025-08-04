@@ -12,11 +12,15 @@ export const metadata: Metadata = {
 
 function Landing() {
   return (
-    <div className="min-h-screen overflow-hidden text-white bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800">
-      <div className="absolute inset-0 bg-center bg-no-repeat bg-cover">
-        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/50"></div>
+    <div className="min-h-screen overflow-hidden text-white bg-gradient-to-br from-slate-900 via-blue-900 to-slate-800 ">
+      <div
+        className="absolute inset-0 bg-center bg-no-repeat bg-cover"
+        style={{
+          backgroundImage: `url('/assets/images/bck2_solo.jpeg')`,
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-b from-black/30 via-transparent to-black/50 "></div>
       </div>
-
       <Header />
 
       <main className="relative z-10 flex items-center justify-center min-h-screen px-6">
