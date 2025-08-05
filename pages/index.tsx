@@ -56,8 +56,8 @@ function Landing() {
 
           <div className="space-y-6">
             <div className="text-sm tracking-wider text-white/60">
-              <p className="mb-3 text-xl"> Connecting Blockchain and Reality. The Ultimate Gateway to Your Real-World Assets.</p>
-              <p>Your one-stop data AI analytics platform for comprehensive real-world asset intelligence, market insights, and predictive analytics.</p>
+              <p className="mb-3 text-xl"> A community-powered, data-driven platform offering comprehensive insights into Real World Assets.</p>
+              <p> Access in-depth data, news, social media analysis, trading, and tailored solutions, all in one place.</p>
             </div>
 
             <div className="flex justify-center space-x-8">
@@ -91,7 +91,7 @@ function Landing() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16 text-center">
             <h2 className="mb-6 text-4xl font-bold lg:text-5xl">Why Choose Real World Gate?</h2>
-            <p className="max-w-3xl mx-auto text-xl text-slate-300">Advanced AI analytics and comprehensive data intelligence for real-world asset markets</p>
+            <p className="max-w-3xl mx-auto text-xl text-slate-300">Your Gateway to Real World Asset Intelligence</p>
           </div>
           <div className="grid gap-8 md:grid-cols-3">
             <div className="p-8 transition-all duration-300 border group bg-white/5 backdrop-blur-sm border-white/10 rounded-2xl hover:bg-white/10 hover:transform hover:scale-105">
