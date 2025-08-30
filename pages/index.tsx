@@ -221,35 +221,31 @@ function Landing() {
         {/* About Section */}
         <section id="about" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-br from-[rgb(2,5,12)] via-[#020f19] to-[#05314e]">
           <div className="w-full max-w-6xl mx-auto">
-            <div className="grid items-center gap-16 lg:grid-cols-2">
+            <div className="flex items-center gap-16">
               <div>
-                <h2 className="mb-8 text-4xl font-bold lg:text-5xl">About Real World Gate</h2>
-                <p className="mb-6 text-lg leading-relaxed text-slate-300">
+                <h2 className="mb-8 text-4xl font-bold text-center lg:text-5xl">About Real World Gate</h2>
+                <h4 className="mb-6 text-lg font-bold text-center lg:text-2xl">Your Gateway to Real World Asset Intelligence</h4>
+                <p className="mb-6 leading-relaxed text-justify text-normal text-slate-300">
                   Real World Gate is the premier data AI analytics platform dedicated to providing comprehensive intelligence on real-world assets. We bridge the gap between blockchain technology and
                   traditional assets, creating the ultimate gateway for RWA information.
                 </p>
-                <p className="mb-8 text-lg leading-relaxed text-slate-300">
-                  Our platform serves as your one-stop destination for RWA intelligence, combining cutting-edge artificial intelligence with extensive data sources to deliver unparalleled market
-                  insights and investment intelligence that connects blockchain innovation with real-world value.
+                <p className="mb-8 leading-relaxed text-justify text-normal text-slate-300">
+                  RWG is a next-generation, community-driven platform dedicated to Real World Assets (RWA). Our mission is to bridge traditional finance and Web3 by aggregating high-quality RWA data,
+                  news, market insights, and research, while fostering deep social interaction and professional networking.
                 </p>
-                <div className="space-y-4">
-                  <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                    <span className="text-slate-200">Real-time blockchain &amp; RWA data aggregation</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                    <span className="text-slate-200">AI-driven predictive analytics</span>
-                  </div>
-                  <div className="flex items-center space-x-3">
-                    <div className="w-2 h-2 bg-blue-400 rounded-full"></div>
-                    <span className="text-slate-200">Comprehensive asset intelligence gateway</span>
-                  </div>
-                </div>
+                <p className="mb-8 leading-relaxed text-justify text-normal text-slate-300">
+                  Unlike existing platforms, RWG combines comprehensive data analytics with a vibrant professional community, enabling users to discover, analyze, and discuss RWA projects, market
+                  trends, and investment opportunities. Our platform empowers both institutions and individual investors through tailored features such as project roadshows, expert Q&A, customizable
+                  dashboards, and compliance-driven investment channels.
+                </p>
+                <p className="mb-8 leading-relaxed text-justify text-normal text-slate-300">
+                  By integrating powerful tools, social features, and high-value content, RWG is building a trusted hub for knowledge sharing, professional collaboration, and seamless access to RWA
+                  markets. Our vision is to drive industry standards, enhance transparency, and unlock the full potential of real-world asset tokenization.
+                </p>
               </div>
-              <div className="relative">
+              {/* <div className="relative w-[300px]">
                 <img src="/assets/images/illustrations/research.svg" alt="Data analytics and AI visualization" />
-              </div>
+              </div> */}
             </div>
           </div>
         </section>
@@ -264,9 +260,18 @@ function Landing() {
               <div>
                 <h2 className="mb-8 text-4xl font-bold lg:text-5xl">Looking for Investors?</h2>
                 <p className="mb-6 text-lg leading-relaxed text-slate-300">
-                  We are actively seeking interesting investment opportunities in RWA. Whether you're an innovator, entrepreneur, or investor, connect with us to explore collaborations and funding
-                  partnerships. Our community is supported by Danxia Capital, a community investment group with a proven track record in Web3 and Blockchain projects. Contact Us On{" "}
-                  <a href="mailto:team@rwg.world">team@rwg.world</a> For More Information
+                  We are actively seeking interesting investment opportunities in RWA. Whether you’re an innovator, entrepreneur, or investor, connect with us to explore collaborations and funding
+                  partnerships.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-slate-300">
+                  Our community is supported by Danxia Capital, a community investment group with a proven track record in Web3 and Blockchain projects.
+                </p>
+                <p className="mb-6 text-lg leading-relaxed text-slate-300">
+                  Contact Us On{" "}
+                  <a href="mailto:team@rwg.world" className="underline">
+                    team@rwg.world
+                  </a>{" "}
+                  for more information
                 </p>
               </div>
             </div>
