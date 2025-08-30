@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import Image from "next/image";
+import { AspectRatio } from "@/components/ui/aspect-ratio";
 const BLOGS = [
   {
     title: "Tokenized Asset Coalition State of Tokenization 2024",
@@ -53,21 +54,19 @@ export function Blog() {
       }}
       className="w-full m-auto"
     >
-      <CarouselContent>
+      <CarouselContent className="space-x-5">
         {BLOGS.map((blog, index) => (
           <CarouselItem key={index} className="basis-full md:basis-1/2 lg:basis-1/3">
             <div key={index}>
-              <div className="flex flex-col">
-                <Image src={blog.image} alt={blog.title} width={370} height={200} className="w-[370px] h-[200px] object-cover" />
-                <h3 className="mb-4 text-2xl font-bold">{blog.title}</h3>
-                <p className="leading-relaxed text-slate-300">
-                  {blog.description.slice(0, 100)}...
-                  <br />
-                  <a target="__blank" href={blog.link} className="text-blue-500 underline">
-                    Read More
-                  </a>
-                </p>
-              </div>
+              <a target="__blank" href={blog.link}>
+                <div className="flex flex-col">
+                  <AspectRatio ratio={16 / 9} className="overflow-hidden">
+                    <Image src={blog.image} alt={blog.title} width={300} height={150} className="object-cover w-full mb-2" />
+                  </AspectRatio>
+                  <h3 className="mb-2 text-lg font-bold hover:underline">{blog.title}</h3>
+                  <p className="text-sm leading-relaxed text-slate-300">{blog.description.slice(0, 100)}...</p>
+                </div>
+              </a>
             </div>
           </CarouselItem>
         ))}

@@ -43,7 +43,7 @@ function Landing() {
           </ParallaxBackground>
 
           <ParallaxContent speed={10} direction="up">
-            <div className="max-w-4xl px-6 mx-auto text-center">
+            <div className="max-w-5xl px-6 mx-auto text-center">
               <div className="mb-8">
                 <p className="inline-flex items-center px-4 py-2 mb-5 space-x-2 text-sm border rounded-full bg-blue-500/20 backdrop-blur-sm border-blue-400/30">
                   <svg
@@ -116,7 +116,7 @@ function Landing() {
         </section>
 
         {/* Features Section */}
-        <section id="features" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700">
+        <section id="features" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-br from-[#02050c] via-[#020f19] to-[#05314e]">
           <ParallaxContent speed={-5} direction="down">
             <div className="w-full max-w-6xl mx-auto">
               <div className="mb-16 text-center">
@@ -209,7 +209,7 @@ function Landing() {
         </section>
 
         {/* Blog Section */}
-        <section id="blog" className="relative z-10 flex items-center min-h-screen px-12 py-20 bg-gradient-to-tl from-slate-950 via-slate-900 to-slate-800">
+        <section id="blog" className="relative z-10 flex items-center min-h-screen px-12 py-20 bg-gradient-to-bl from-[#05314e] via-[#020f19] to-[#02050c]">
           <div className="w-full max-w-6xl mx-auto">
             <div className="mb-16 text-center">
               <h2 className="mb-6 text-4xl font-bold lg:text-5xl">Blog</h2>
@@ -219,7 +219,7 @@ function Landing() {
         </section>
 
         {/* About Section */}
-        <section id="about" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700">
+        <section id="about" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-br from-[rgb(2,5,12)] via-[#020f19] to-[#05314e]">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid items-center gap-16 lg:grid-cols-2">
               <div>
@@ -255,7 +255,7 @@ function Landing() {
         </section>
 
         {/* Investor Section */}
-        <section id="investor" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-tl from-slate-950 via-slate-900 to-slate-800">
+        <section id="investor" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-bl from-[#05314e] via-[#020f19] to-[#02050c]">
           <div className="w-full max-w-6xl mx-auto">
             <div className="grid items-center gap-16 lg:grid-cols-2">
               <div className="relative">
@@ -274,7 +274,7 @@ function Landing() {
         </section>
 
         {/* Team Section */}
-        <section id="team" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-700">
+        <section id="team" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-br from-[rgb(2,5,12)] via-[#020f19] to-[#05314e]">
           <div className="w-full max-w-6xl mx-auto">
             <div className="mb-16 text-center">
               <h2 className="mb-6 text-4xl font-bold lg:text-5xl">Meet Our Team</h2>
@@ -301,7 +301,7 @@ function Landing() {
         </section>
 
         {/* Contact Section */}
-        <section id="contact" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-tl from-slate-950 via-slate-900 to-slate-800">
+        <section id="contact" className="relative z-10 flex items-center min-h-screen px-6 py-20 lg:px-12 bg-gradient-to-bl from-[#05314e] via-[#020f19] to-[#02050c]">
           <div className="w-full max-w-4xl mx-auto text-center">
             <h2 className="mb-6 text-4xl font-bold lg:text-5xl">Ready to Connect Blockchain and Reality?</h2>
             <p className="max-w-2xl mx-auto mb-12 text-xl text-slate-300">Join thousands of investors and analysts who rely on Real World Gate as their ultimate gateway to RWA intelligence.</p>

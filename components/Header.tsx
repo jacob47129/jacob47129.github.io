@@ -105,7 +105,7 @@ export default function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="items-center hidden space-x-8 md:flex">
+          <nav className="items-center justify-end hidden mr-5 space-x-8 grow md:flex">
             {navigationItems.map((item) => {
               const isActive = activeSection === item.href.replace("#", "");
               return (
