@@ -29,7 +29,7 @@ export default function Document({ children }: { children: React.ReactNode }) {
         <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
         <link rel="manifest" href="/site.webmanifest" />
       </Head>
-      <body className="antialiased bg-slate-900">
+      <body className="antialiased bg-black">
         <Main />
         <NextScript />
       </body>
